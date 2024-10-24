@@ -1,0 +1,46 @@
+/* Scoped styles for the Events page */
+.events-page-container {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .events-page-container h5 {
+    text-align: center;
+    color: #2c3e50;
+  }
+  
+  .event-search {
+    display: block;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 400px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    font-size: 16px;
+  }
+  
+  .events-list {
+    margin-top: 20px;
+  }
+  
+  .event-card {
+    background-color: #b0b0b0;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .event-card h3 {
+    margin-top: 0;
+    color: #2980b9;
+  }
+  
+  .no-events {
+    text-align: center;
+    color: #7f8c8d;
+  }
+  

@@ -1,0 +1,50 @@
+/* Contact.css */
+
+.contact-container {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: 20px auto; /* Centers the container */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
+}
+
+.contact-title {
+    font-size: 2rem;
+    margin-bottom: 15px;
+    color: #2f3f80; /* Title color */
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column; /* Aligns form elements vertically */
+}
+
+.contact-form label {
+    margin-top: 10px;
+    font-weight: 500; /* Makes labels bold */
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.contact-form .submit-button {
+    background-color: #2f3f80;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+.contact-form .submit-button:hover {
+    background-color: #4578a0; /* Lighter shade on hover */
+}

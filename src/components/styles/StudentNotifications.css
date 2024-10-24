@@ -1,0 +1,108 @@
+/* Notifications Container */
+.notifications-container {
+    padding: 20px;
+    max-width: 1000px;
+    margin: auto;
+    background-color: #f8f9fa00; /* Light background for contrast */
+    border-radius: 8px; /* Rounded corners for the container */
+  }
+  
+  /* Heading Styles */
+  .notifications-container h1 {
+    font-size: 2rem;
+    color: #2c3e50;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: -20px;
+  }
+  
+  .notifications-container p {
+    font-size: 0.85rem;
+    margin-left: -1px;
+    color: #ffffff;
+    margin-bottom: 20px;
+    margin-top: -5px;
+  }
+  
+  /* Notification List */
+  .notification-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  /* Base Notification Card Styles */
+  .notification-card {
+    display: flex;
+    height: 70px;
+    align-items: center;
+    background-color: #81808090; /* White background for notifications */
+    border-radius: 8px; /* Rounded corners for individual notifications */
+    padding: 10px; /* Adjusted padding for a more compact card */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    transition: transform 0.2s;
+    flex-wrap: wrap; /* Allow elements to wrap in the card */
+  }
+  
+  .notification-card:hover {
+    transform: scale(1.02); /* Slightly enlarges on hover */
+  }
+  
+  /* Icon Styles */
+  .notification-icon {
+    margin-top: -0px;
+    font-size: 1.5rem; /* Size for notification icons */
+    margin-right: 15px; /* Space between icon and text */
+    color: inherit; /* Inherit color from parent for flexibility */
+  }
+  
+  /* Content Section */
+  .notification-content {
+    flex: 1; /* Take remaining space */
+  }
+  
+  /* Title Styles */
+  .notification-title {
+    font-size: 1rem; /* Title font size */
+    font-weight: 600; /* Bold title */
+    margin-top: 2px;
+    margin-bottom: 5px; /* Space between title and message */
+  }
+  
+  /* Message Styles */
+  .notification-message {
+    margin: 0; /* Remove default margin */
+    color: #ffffff; /* Color for the message */
+    margin-top: -px;
+  }
+  
+  /* Time Styles */
+  .notification-time {
+    display: block; /* Display as block for spacing */
+    margin-top: -20px; /* Space above time */
+    font-size: 0.7rem; /* Smaller font size for time */
+    color: #ffffff; /* Light color for timestamp */
+    flex-basis: 100%; /* Ensure time is on its own line */
+  }
+  
+  /* Individual Notification Type Styles */
+  .notification-card.info {
+    background-color: #3498db7d; /* Light blue background */
+    border-left: 5px solid #3498db; /* Blue border */
+  }
+  
+  .notification-card.success {
+    background-color: rgba(3, 182, 3, 0.692); /* Light green background */
+    border-left: 5px solid #2ecc71; /* Green border */
+  }
+  
+  .notification-card.warning {
+    background-color: #f316129a; /* Light yellow background */
+    border-left: 5px solid #ec0404; /* Orange border */
+  }
+  
+  .notification-card.error {
+    background-color: #a7a7a7; /* Light red background */
+    border-left: 5px solid #e74c3c; /* Red border */
+  }
+  

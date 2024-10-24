@@ -1,0 +1,144 @@
+/* General Styles for the Page Container */
+.page-container {
+    padding: 20px;
+    max-width: 1200px; /* Adjusted width for better layout */
+    margin: auto;
+}
+
+/* Styles for the Profile Section */
+.profile-section {
+    margin-bottom: 20px;
+}
+
+/* Styles for the Profile Picture */
+.profile-picture {
+    margin-bottom: 20px;
+}
+
+/* Styles for File Upload */
+.custom-file-upload {
+    display: inline-block;
+    padding: 10px;
+    cursor: pointer;
+    border: 2px dashed #ccc;
+    border-radius: 5px;
+    text-align: center;
+    width: 100%;
+}
+
+/* Personal Info Styles */
+.personal-info label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+/* Styles for Orientation Tasks Section */
+.profile-orientation-tasks {
+    margin: 20px 10px; /* Adds vertical spacing around the section */
+    padding: 15px; /* Adds padding within the section */
+    border-radius: 16px; /* Rounds the corners of the section */
+    background-color: #f0f4ff00; /* Light background color for contrast */
+}
+
+/* Styles for Orientation Tasks Header */
+.profile-orientation-tasks h2 {
+    font-size: 33px; /* Font size for the header */
+    color: #1c69c1; /* Text color for the header */
+    margin-bottom: 25px; /* Space below the header */
+    text-align: center; /* Center the header text */
+    font-weight: bold; /* Bold header text */
+    margin-top: 0px;
+}
+
+/* Styles for Task List */
+.task-list {
+    display: flex; /* Use flexbox to arrange tasks in a row */
+    flex-wrap: wrap; /* Allow wrapping to the next line if needed */
+    justify-content: space-around; /* Evenly distribute space between tasks */
+    color: rgb(0, 0, 0);
+}
+
+/* Styles for Each Task Item */
+.profile-task-item {
+    display: flex; /* Flexbox for aligning checkbox and label */
+    align-items: center; /* Center items vertically */
+    margin-top: 50px;
+    background-color: #062db896; /* Background for each task item */
+    color: rgb(0, 0, 0);
+    line-height: 22px;
+    font-weight: 600;
+    margin: 5px; /* Space between task items */
+    padding: 15px 15px 15px 15px; /* Padding for better spacing */
+    border-radius: 15px; /* Rounded corners */
+    transition: transform 0.2s, box-shadow 0.2s; /* Transition for hover effects */
+    white-space: nowrap; /* Prevent text from wrapping */
+    overflow: hidden; /* Hide overflowing text */
+    text-overflow: ellipsis; /* Add ellipsis for overflowing text */
+}
+
+/* Hover Effect for Task Items */
+.profile-task-item:hover {
+    transform: scale(1.02); /* Slightly enlarge on hover */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Enhance shadow on hover */
+}
+
+/* Styles for Task Checkbox */
+.profile-task-item input[type="checkbox"] {
+    margin-right: 10px; /* Space between checkbox and label */
+}
+
+/* Styles for the Save Changes Button */
+.profile-save-button {
+    padding: 10px 15px;
+    margin-left: 500px;
+    background-color: #28a745; /* Green background for button */
+    width: 15%;
+    color: white; /* White text color */
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    border: none; /* No border */
+    border-radius: 8px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    margin-top: 10px; /* Space above the button */
+    transition: background-color 0.3s; /* Smooth background color transition */
+}
+
+/* Hover Effect for Save Changes Button */
+.profile-save-button:hover {
+    background-color: #167029; /* Darker green on hover */
+}
+
+.progress-container {
+    margin-top: 20px; /* Adds spacing above the progress */
+    font-size: 24px; /* Adjust font size */
+    font-weight: bold; /* Makes the text bold */
+}
+
+/* Color classes based on progress */
+.progress-red {
+    color: red; /* Color for 0% */
+}
+
+.progress-orange {
+    color: orange; /* Color for 25% */
+}
+
+.progress-yellow {
+    color: yellow; /* Color for 50% */
+}
+
+.progress-green {
+    color: green; /* Color for 75% */
+}
+
+.progress-blue {
+    color: blue; /* Color for 100% */
+}
+
+.profile-task-item input[type="checkbox"] {
+    margin-right: 10px; /* Space between checkbox and label */
+    width: 55px; /* Adjusted width */
+    height: 55px; /* Adjusted height */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    accent-color: #1c69c1; /* Optional: Set checkbox color for better visibility */
+}
